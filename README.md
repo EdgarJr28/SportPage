@@ -1,6 +1,6 @@
 # Sports
 
-Sports es una aplicación web desarrollada por Edgar Maldonado, Carlos Mendoza y Hammer Cano, que ofrece un servicio de reservas de instalaciones deportivas. Esta aplicación ha sido creada como parte del proyecto académico, en el cual se aplicaron los conocimientos adquiridos en las clases sobre React, constituyendo el 20% de la nota del tercer corte según la rúbrica establecida. La funcionalidad de esta página está organizada en tres roles de usuarios:
+Sports es una aplicación web que ofrece un servicio de reservas de instalaciones deportivas. Esta aplicación ha sido creada como parte del proyecto académico, en el cual se aplicaron los conocimientos adquiridos en las clases sobre React, constituyendo el 20% de la nota del tercer corte según la rúbrica establecida. La funcionalidad de esta página está organizada en tres roles de usuarios:
 
 ### Invitado
 
