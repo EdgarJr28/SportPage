@@ -1,7 +1,17 @@
-# SportPage
-Sport Court Reservation System Este proyecto es una aplicación web de reserva de canchas deportivas desarrollada con React, Firebase Auth y Firestore. La aplicación permite a los usuarios registrarse, iniciar sesión y reservar canchas deportivas de manera sencilla y eficiente.
+# Sports
 
-Tecnologías utilizadas
-React: Biblioteca de JavaScript para construir interfaces de usuario.
-Firebase Auth: Servicio de autenticación de Firebase para manejar el registro y el inicio de sesión de usuarios.
-Firestore: Base de datos NoSQL en tiempo real de Firebase para almacenar y sincronizar datos.
+Sports es una aplicación web desarrollada por Edgar Maldonado, Carlos Mendoza y Hammer Cano, que ofrece un servicio de reservas de instalaciones deportivas. Esta aplicación ha sido creada como parte del proyecto académico, en el cual se aplicaron los conocimientos adquiridos en las clases sobre React, constituyendo el 20% de la nota del tercer corte según la rúbrica establecida. La funcionalidad de esta página está organizada en tres roles de usuarios:
+
+### Invitado
+
+El usuario visitante solo tendrá acceso a las opciones de registro e inicio de sesión, necesarias para acceder a las funciones completas de la página.
+
+### Usuario
+
+El usuario registrado tendrá acceso a la función de reservas de instalaciones deportivas. Además, encontrará un botón para finalizar su uso de la instalación, permitiendo que esta vuelva a estar disponible para ser reservada por otro usuario, o por el mismo usuario si así lo desea.
+
+### Administrador
+
+Con el soporte de la base de datos de **Firebase**, la aplicación web identificará si el usuario que ha iniciado sesión tiene privilegios de administrador. En caso afirmativo, se habilitarán las opciones de administrador, incluyendo un sistema CRUD para gestionar las instalaciones deportivas disponibles para reserva. Además, los administradores podrán realizar reservas de instalaciones como un usuario registrado.
+
+![alt text](image.png)
